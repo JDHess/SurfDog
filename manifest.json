@@ -1,0 +1,12 @@
+{
+    "name": "SurfDog",
+    "version": "1.0.0",
+    "description": "Surf the web with SurfDog who tries to find cats along the way.",
+    "manifest_version": 3,
+    "author": "Julie Hess",
+    "icons": { "128": "icon_128.png" },
+    "action": {
+        "defalt_icon": "./icon.PNG",
+        "defalt_popup": "./popup.html"
+    }
+}
