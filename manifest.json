@@ -1,12 +1,16 @@
 {
     "name": "SurfDog",
-    "version": "1.0.0",
-    "description": "Surf the web with SurfDog who tries to find cats along the way.",
-    "manifest_version": 3,
-    "author": "Julie Hess",
-    "icons": { "128": "icon_128.png" },
+    "version": "0.1.0",
+    "description": "SurfDog surfs the internet with you and finds cute kittens along the way!",
+    "permissions": ["storage"],
     "action": {
-        "defalt_icon": "./icon.PNG",
-        "defalt_popup": "./popup.html"
-    }
+      "default_icon": {
+        "16": "assets/ext-icon.png",
+        "24": "assets/ext-icon.png",
+        "32": "assets/ext-icon.png"
+      },
+      "default_title": "SurfDog",
+      "default_popup": "popup.html"
+    },
+    "manifest_version": 3
 }
